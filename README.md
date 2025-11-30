@@ -39,13 +39,15 @@ Training Strategy
 - Fine-tuning (Epoch 4-12): All layers trainable, ReduceLROnPlateau scheduler
 
 ### Project Structure
-├── README.md                          # This file
-├── requirements.txt                   # Python dependencies
-├── .gitignore                         # Git ignore rules
-├── models/                            # Model weights
-│   └── deepfake_model_best.pth       # Trained model (~24MB)
-├── notebooks/                         # notebooks
-│   └── deepfake-detection.ipynb      # Training notebook
-├── src/                               # Source code
-│   ├── deepfake_inference.py         # Inference pipeline
-
+```text
+project/
+├── README.md                    # This file
+├── requirements.txt             # Python dependencies
+├── .gitignore                   # Git ignore rules
+├── models/                      # Model weights
+│   └── deepfake_model_best.pth  # Trained model (~24MB)
+├── notebooks/                   # Notebooks
+│   └── deepfake-detection.ipynb # Training notebook
+└── src/                         # Source code
+    └── deepfake_inference.py    # Inference pipeline
+```
