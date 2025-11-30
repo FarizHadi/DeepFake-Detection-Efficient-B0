@@ -18,7 +18,7 @@ Model di-training pada Deep Fake Detection (DFD) dataset:
 - FAKE: 3,068 videos (89.4%)
 - REAL: 363 videos (10.6%)
 - Resolution: 1920×1080, 24 fps
-- Sumber: [DFD Dataset Link]
+- Sumber: [https://www.kaggle.com/datasets/sanikatiwarekar/deep-fake-detection-dfd-entire-original-dataset]
 
 Data Split
 - Training: 2,744 videos (80%)
