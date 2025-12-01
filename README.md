@@ -9,6 +9,11 @@ Model ini dapat mengklasifikasikan video sebagai REAL (asli) atau FAKE (deepfake
 - Face detection & cropping menggunakan MTCNN
 - Temporal patterns menggunakan Bidirectional GRU
 
+### Quick Start
+```
+streamlit run app.py
+```
+
 ### Architecture
 Input Video → Frame Extraction → Face Detection → EfficientNet-B0 → BiGRU → Classification
 
